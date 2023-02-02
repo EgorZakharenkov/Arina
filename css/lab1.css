@@ -1,0 +1,96 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+li{
+    list-style: none;
+}
+.red{
+    display: inline;
+    color: red;
+}
+.blue{
+    color: blue;
+    display: inline;
+}
+.wrapper{
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.title{
+    letter-spacing: 10px;
+    font-size: 30px;
+    text-shadow:  6px  6px 10px #696969;}
+.author{
+    margin-left: 60%;
+    font-style: italic;
+    margin-top: 15px;
+}
+.text-green{
+    color: green;
+    padding-bottom: 30px;
+}
+.glava{
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0px;
+}
+.text{
+    line-height: 25px;
+}
+.zad_3_title{
+    background: red;
+    font-size: 22px;
+    font-style: italic;
+    color: #555555;
+}
+.zad3{
+    text-decoration: underline;
+}
+h2{
+    margin: 20px;
+}
+.zad4{
+    text-decoration: line-through;
+    color: #5be1e1;
+    font-style: italic;
+    font-size: 40px;
+}
+.author_zad4{
+    font-style: italic;
+    font-size: 24px;
+    margin: 20px 0;
+}
+.zadanie_5{
+    display: flex;
+    flex-direction: column;
+}
+.first{
+    margin-left: 10px;
+}
+.two{
+    margin-left: 3px;
+}
+.three{
+    margin-left: 20px;
+}
+.four{
+    margin-left: 5px;
+}
+.last{
+    font-size: 25px;
+}
+.hwostik{
+    margin-left: 50px;
+}
+.text_2{
+    line-height: 25px;
+}
+.title:hover{
+    text-decoration: underline;
+}
